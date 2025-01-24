@@ -23,7 +23,7 @@ function reiniciar(){
     parseInt(document.getElementById("quantidade").value) = 0;
     parseInt(document.getElementById("de").value) = 0;
     parseInt(document.getElementById("ate").value) = 0;
-    reesultado.innerHTML = '<label class="texto__paragrafo">Números sorteados:  nenhum até agora</label>';
+    resultado.innerHTML = '<label class="texto__paragrafo">Números sorteados:  nenhum até agora</label>';
     alterarStatusBotao();
 }
 
